@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  semantic-computing:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - ENV=production
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+
+  # Future: Add database service
+  # postgres:
+  #   image: postgres:13
+  #   environment:
+  #     POSTGRES_DB: semantic_computing
+  #     POSTGRES_USER: semantic
+  #     POSTGRES_PASSWORD: semantic123
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+
+# volumes:
+#   postgres_data:
