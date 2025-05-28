@@ -248,17 +248,8 @@ ASSERT F1001 E1001 R1001 E1002 \
 VALIDATE emergency-response --check-coverage
 ```
 
-This creates a knowledge base that emergency coordinators can query to find resources during disasters.
+This creates a knowledge base that emergency coordinators can query to find resources during contingencies.
 
-## Getting Help
 
-- **Documentation**: Full specification in the User Manual
-- **Examples**: See the `examples/` directory
-- **Community**: Join the semantic infrastructure community
-- **Issues**: Report bugs and request features
 
-Start simple, then grow into the complexity as you need it. That's the power of progressive discovery.
 
----
-
-*Ready to build your first knowledge base? Create a Kmacfile and start experimenting!*
